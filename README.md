@@ -12,7 +12,7 @@ Here I have implemented a Single Address ROM Design which have 8 locations of si
 
 It is organized as 8 × 64 bits, and can be read byte-wise.
 
-‘romq’ is declared as the module at the beginning and the inputs/outputs listed.
+‘rom’ is declared as the module at the beginning and the inputs/outputs listed.
 This is followed by declaring the I/Os, registers, and wires as shown in the code.
 Locations ‘loc0’ to ‘loc7’ are assigned the ROM data, each of size 64 bits. In the
 ‘always’ block that follows, these locations are assigned to the memory, ‘mem [0]’
